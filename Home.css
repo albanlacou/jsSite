@@ -1,4 +1,17 @@
+.flex
+{
+	display: flex;
+	justify-content: space-between;
+	border: solid;
+
+}
+.space
+{
+	margin: 20px;
+	
+}
 body
 {
-	background-color: black;
+	background-image: url("fond.jpg");
+	color: white;
 }
