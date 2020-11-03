@@ -95,16 +95,16 @@ function finish ()
 {
 	if (smash>minecraft && smash>lol) 
 	{
-		finalText = "le jeux qui vous convient le mieux est: SmashBros";
+		finalText = "le jeux qui vous convient le mieux est: Super Smash Bros";
 	}else if (minecraft>smash && minecraft>lol) 
 	{
 		finalText = "le jeux qui vous convient le mieux est: Minecraft";
 	}else if (lol>smash && lol>minecraft) 
 	{
-		finalText = "le jeux qui vous convient le mieux est: lol";
+		finalText = "le jeux qui vous convient le mieux est: League of Legend";
 	}else if(lol == 0 && minecraft == 0 && smash == 0)
 	{
-		finalText = "aucun jeu ne vous convient vraiment vous n'etes peut etre pas fait pour sa?";
+		finalText = "aucun jeu ne vous convient vraiment vous n'etes peut etre pas fait pour ça?";
 	}else{
 		finalText = "tout les jeu peuvent vous convenir alors faite votre choix :)";
 	}

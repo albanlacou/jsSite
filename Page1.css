@@ -10,6 +10,12 @@
 	display: flex;
 	justify-content: center;
 }
+.flex3
+{
+	display: flex;
+	order: solid;
+	align-item: end;
+}
 .space
 {
 	margin: 20px;
