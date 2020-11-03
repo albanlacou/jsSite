@@ -1,12 +1,16 @@
-<!DOCTYPE html>:
+<!DOCTYPE html>:;
 <html>
 <head>
     <title>GamerZ</title>
+<<<<<<< HEAD
     <link rel="stylesheet" type="text/css" href="Page1.css">
+=======
+    <link rel="stylesheet" type="text/css" href="Page-1.css">
+>>>>>>> b363225d8b49f1767a07d380ef042b42ece0aab0
 </head>
 <nav>
     <div class="flex">
-        <p class="space"></p>
+        <p class="space">Page1</p>
         <p class="space">Page2</p>
         <p class="space">Page3</p>
         <p class="space">Page4</p>
@@ -17,7 +21,7 @@
 
 
 <body>
-<p>je suce des chevres</p>
+<p>salut mon pote</p>
 
 </body>
 </html>

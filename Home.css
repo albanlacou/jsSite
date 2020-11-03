@@ -5,6 +5,22 @@
 	border: solid;
 
 }
+
+.flex2
+{
+	display: flex;
+	width: all;
+	justify-content: center;
+}
+.flex3
+{
+	display: flex;
+	justify-content: space-around;
+	border: solid;
+	width: 400px;
+	margin-left: 35%;
+	margin-top: 10px;
+}
 .space
 {
 	margin: 20px;
@@ -14,4 +30,9 @@ body
 {
 	background-image: url("fond.jpg");
 	color: white;
+}
+#b1,#b2,#b3,#b4
+{
+	width: 100px;
+	height: 100px;
 }
