@@ -1,3 +1,8 @@
+@font-face {
+	font-family: "fonte";
+	src: url('font.ttf');
+}
+
 .flex
 {
 	display: flex;
@@ -11,15 +16,16 @@
 	display: flex;
 	width: all;
 	justify-content: center;
+
+
 }
 .flex3
 {
 	display: flex;
 	justify-content: space-around;
+	width: 700px;
+	margin-top: 50px;
 	
-	width: 400px;
-	margin-left: 35%;
-	margin-top: 10px;
 }
 .space
 {
@@ -30,26 +36,78 @@ body
 {
 	background-image: url("fond.jpg");
 	color: white;
-	border: solid;
 	height: 800PX;
 	align-items: center;
+	
 }
 #b1,#b2,#b3,#b4
 {
-	width: 100px;
-	height: 100px;
+	width: 210px;
+	height: 210px;
 	display: none;
+	font-family: fonte;
+	font-size: 23px;
 }
 
 
 #start
 {
+	width: 150px;
+	height: 150px;
+	background-image: url("play-button.png");
+	background-size:150px;
 	justify-content: center;
+	font-size: 25px;
 }
 
 .flexBody
 {
-	border: solid;
-	border-color: yellow;
+	display: flex;
 	height: 600px;
+	align-items: center;
+	justify-content: center;
+
 }
+
+.flexQuiz
+{
+	display: flex;
+	flex-direction: column;
+
+}
+#b1
+{
+	background-image: url("btn1.png");
+	background-size: 210px;
+
+
+}
+#b2
+{
+	background-image: url("btn2.png");
+	background-size: 210px;
+}
+#b3
+{
+	background-image: url("btn3.png");
+	background-size: 210px;
+}
+
+#b4
+{
+	background-image: url("btn4.png");
+	background-size: 210px;
+}
+
+#print
+{
+	background-color: grey;
+	font-size: 28px;
+}
+
+
+
+
+
+
+
