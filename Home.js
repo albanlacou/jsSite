@@ -20,48 +20,48 @@ function quiz()
 		test = "Vous êtes plutôt?";
 		document.getElementById("print").innerHTML = test;
 		document.getElementById("start").style.display = "none";
-		document.getElementById("b1").innerHTML = "combat nerveux";
-		document.getElementById("b2").innerHTML = "du genre a foncer";
-		document.getElementById("b3").innerHTML = "celui qui veut tout controler";
-		document.getElementById("b4").innerHTML = "le branleur";
+		document.getElementById("b1").innerHTML = "Combat nerveux";
+		document.getElementById("b2").innerHTML = "Du genre a foncer";
+		document.getElementById("b3").innerHTML = "Celui qui veut tout controler";
+		document.getElementById("b4").innerHTML = "Le branleur";
 		return 0;
 
 
 	}else if (step == 1) {
 		test = "En cas d'invasion zombie vous preferer?:"
 		document.getElementById("print").innerHTML = test;
-		document.getElementById("b1").innerHTML = "courir en esquivant les zombies";
-		document.getElementById("b2").innerHTML = "taper tout les mort-vivant que vous croiser";
-		document.getElementById("b3").innerHTML = "construire un abri fortifier";
-		document.getElementById("b4").innerHTML = "dormir sans vos parents pour vous reveiller";
+		document.getElementById("b1").innerHTML = "Courir en esquivant les zombies";
+		document.getElementById("b2").innerHTML = "Taper tout les mort-vivant que vous croiser";
+		document.getElementById("b3").innerHTML = "Construire un abri fortifier";
+		document.getElementById("b4").innerHTML = "Dormir sans vos parents pour vous reveiller";
 	}else if (step == 2) {
 		test = "votre arme préférée:"
 		document.getElementById("print").innerHTML = test;
-		document.getElementById("b1").innerHTML = "les poings toujours éfficace!!!";
-		document.getElementById("b2").innerHTML = "un baton magique";
-		document.getElementById("b3").innerHTML = "une bonne pioche sa fais toujours plaisir";
-		document.getElementById("b4").innerHTML = "une batte";
+		document.getElementById("b1").innerHTML = "Les poings toujours éfficace!!!";
+		document.getElementById("b2").innerHTML = "Un baton magique";
+		document.getElementById("b3").innerHTML = "Une bonne pioche sa fais toujours plaisir";
+		document.getElementById("b4").innerHTML = "Une batte";
 	}else if (step == 3) {
 		test = "quel genre de graphisme vous plait le plus?"
 		document.getElementById("print").innerHTML = test;
-		document.getElementById("b1").innerHTML = "classique";
-		document.getElementById("b2").innerHTML = "fantastique";
-		document.getElementById("b3").innerHTML = "retro";
-		document.getElementById("b4").innerHTML = "réaliste";
+		document.getElementById("b1").innerHTML = "Classique";
+		document.getElementById("b2").innerHTML = "Fantastique";
+		document.getElementById("b3").innerHTML = "Retro";
+		document.getElementById("b4").innerHTML = "Réaliste";
 	}else if (step == 4) {
 		test = "votre niveau de patience:"
 		document.getElementById("print").innerHTML = test;
-		document.getElementById("b1").innerHTML = "je suis pas patient du tout";
-		document.getElementById("b2").innerHTML = "extrmement patient";
-		document.getElementById("b3").innerHTML = "j'ai une patience infini";
-		document.getElementById("b4").innerHTML = "bof bof";
+		document.getElementById("b1").innerHTML = "Je suis pas patient du tout";
+		document.getElementById("b2").innerHTML = "Extremement patient";
+		document.getElementById("b3").innerHTML = "J'ai une patience infini";
+		document.getElementById("b4").innerHTML = "Bof bof";
 	}else if (step == 5) {
 		test = "votre style de jeux preferer:"
 		document.getElementById("print").innerHTML = test;
-		document.getElementById("b1").innerHTML = "jeux de combat";
-		document.getElementById("b2").innerHTML = "jeux de teamfight";
-		document.getElementById("b3").innerHTML = "jeux de gestion et survie";
-		document.getElementById("b4").innerHTML = "bof bof";
+		document.getElementById("b1").innerHTML = "Jeux de combat";
+		document.getElementById("b2").innerHTML = "Jeux de teamfight";
+		document.getElementById("b3").innerHTML = "Jeux de gestion et survie";
+		document.getElementById("b4").innerHTML = "Bof bof";
 
 	}else if (step == 6) 
 	{
