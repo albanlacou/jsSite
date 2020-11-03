@@ -5,13 +5,23 @@
 	border: solid;
 
 }
+.flex2
+{
+	display: flex;
+	justify-content: center;
+}
 .space
 {
 	margin: 20px;
-
+}
+.space2
+{
+	margin: 40px;
+    font-size: 40px;
+    font-family: "Trebuchet MS", Verdana, Geneva, Arial;
 }
 body
 {
-	background-image: url("pagelol.jpg");
+	background-image: url("fondAntoine.jpg");
 	color: white;
 }
