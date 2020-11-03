@@ -8,6 +8,7 @@
 	display: flex;
 	justify-content: space-between;
 	border: solid;
+	background-color: grey;
 
 }
 
@@ -104,8 +105,14 @@ body
 	background-color: grey;
 	font-size: 28px;
 }
-
-
+a:visited
+{
+	color: white;
+}
+a:hover
+{
+	color:blue;
+}
 
 
 
