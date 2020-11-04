@@ -19,8 +19,12 @@
 
 
 <body>
+<<<<<<< HEAD
+=======
 	<p>Nous vous proposons ici un quiz qui vous permet de voir quels jeux video vous plairaient le plus</p>
+>>>>>>> 34215d82ca344c770e96225f3283b13495212500
 	<div class="flexBody">
+		<p id="presentation">Nous vous proposons ici un quiz qui vous permet de voir quel jeux video vous plairait le plus</p>
 		<div class="flexQuiz">
 			<div class="flex2">
 				<p id="print"></p>
