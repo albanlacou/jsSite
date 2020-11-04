@@ -10,6 +10,10 @@ let
 
 function quiz()
 {
+    for(let i=1; i <=4; i++) {
+       document.getElementById(`b${i}`).style.display = "block";
+    }
+
 	document.getElementById("b1").style.display = "block";
 	document.getElementById("b2").style.display = "block";
 	document.getElementById("b3").style.display = "block";
@@ -28,8 +32,8 @@ function quiz()
 		return 0;
 
 
-	}else if (step == 1) {
-		test = "En cas d'invasion zombie vous preferer?:"
+	} else if (step == 1) {
+		test = "En cas d'invasion zombie vous preferez?:"
 		document.getElementById("print").innerHTML = test;
 		document.getElementById("b1").innerHTML = "Courir en esquivant les zombies";
 		document.getElementById("b2").innerHTML = "Taper tout les mort-vivant que vous croiser";
@@ -70,27 +74,22 @@ function quiz()
 	}
 };
 
-function result(nbButton)
-{
+function result(nbButton) {
 	if (nbButton == 1) {
 		smash++;
 		step++;
-		return quiz();
+
 	}else if (nbButton == 2){
 		lol++;
 		step++;
-		return quiz();
 	}else if (nbButton == 3) {
 		minecraft++;
 		step++;
-		return	quiz();
 	}else{
 		step++;
-		return quiz();
 	}
-	
-	return 0;
-};
+	return quiz();
+	};
 
 function finish ()
 {
