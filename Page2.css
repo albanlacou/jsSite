@@ -3,6 +3,7 @@
 	display: flex;
 	justify-content: space-between;
 	border: solid;
+	background-color: grey;
 
 }
 .space
@@ -12,9 +13,48 @@
 }
 body
 {
+
 	background-image: url("fondAlban.png");
 }
 nav
 {
 	background-color: grey;
+}
+a:visited
+{
+	color: white;
+}
+a:hover
+{
+	color:blue;
+}
+.main
+{
+	display: flex;
+	width: all;
+	height: 800px;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.ArrowBot
+{
+	display: flex;
+
+}
+button:hover
+{
+	background-color: grey;
+}
+#steve
+{
+	width: 50px;
+	position: relative;
+}
+.butDuJeu
+{
+	align-self: flex-start;
+	background-color: grey;
+	align-items: center;
 }

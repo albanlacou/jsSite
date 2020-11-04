@@ -4,7 +4,7 @@ let smash = 0;
 let minecraft = 0;
 let lol = 0;
 let finalText = "";
-
+let 
 
 
 
@@ -14,6 +14,7 @@ function quiz()
 	document.getElementById("b2").style.display = "block";
 	document.getElementById("b3").style.display = "block";
 	document.getElementById("b4").style.display = "block";
+	document.getElementById("presentation").style.display = "none";
 	
 	if (step == 0)
 	{
