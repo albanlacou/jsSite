@@ -3,7 +3,7 @@
 	display: flex;
 	justify-content: space-between;
 	border: solid;
-
+	font-size: 40px;
 }
 .flex2
 {
@@ -15,6 +15,13 @@
 	display: flex;
 	border: solid;
 	align-item: end;
+}
+.flex4
+{
+	display: flex;
+	justify-content: space-between;
+	border: solid;
+
 }
 .space
 {
@@ -30,4 +37,8 @@ body
 {
 	background-image: url("fondAntoine.jpg");
 	color: white;
+}
+#b1,#b2,#b3,#b4
+{
+	font-size: 300px;
 }
