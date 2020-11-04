@@ -18,24 +18,18 @@
 
 
 <body>
-	<div id="modal">
-		<div id="modal-content">
-			<span id="close" onclick=closeModal()>&times;</span>
-			<p id="titre">But du jeu</p>
-			<p>Le but de Minecarft est de survivre dans un monde peupler de cube et de monstre les plus étrange.</p>
-			<p>Vous devez recuperer des ressources les combiner pour fabriquer des outils ou des objets qui vous seront utiles.</p>
-			<p>Si vous aimez les jeux de survie la decouverte, le loot, et le craft, Minecraft est fait pour vous </p>
-			<p>Alors motivez-vous et essayer de vous rendre assez fort pour allez battre l'ENDERDRAGON la créature la plus puissante du jeu</p>
-		</div>
-	</div>
+<<<<<<< HEAD
 	<div class="main">
-		<div id="butDuJeu">but du jeu</div>
+		<div class="butDuJeu">but du jeu</div>
 		<img src="steve.png" id="steve">
 		<button onclick=onClickedtop(20)> ^ </button>
 		<div class="ArrowBot">
 			<button onclick=onClickedright(20)> < </button>
 			<button onclick=onClickedbot(20)> v </button>
 			<button onclick= onClickedLeft(20)> > </button>
+=======
+<p>Minecraft</p>
+>>>>>>> 34215d82ca344c770e96225f3283b13495212500
 
 		</div>
 		

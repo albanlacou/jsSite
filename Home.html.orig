@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GamerZ</title>
+	<link rel="stylesheet" type="text/css" href="Home.css">
+	<meta charset = "utf-8">
+</head>
+<nav>
+	<div class="flex">
+		<a href="Home.html" class="space">Home</a>
+		<a href="page-1.html" class="space">League Of Legend</a>
+		<a href="page-2.html" class="space">Minecraft</a>
+		<a href="page-3.html" class="space">Smash Bros</a>
+		
+	</div>
+	
+
+</nav>	
+
+
+<body>
+<<<<<<< HEAD
+=======
+	<p>Nous vous proposons ici un quiz qui vous permet de voir quels jeux video vous plairaient le plus</p>
+>>>>>>> 34215d82ca344c770e96225f3283b13495212500
+	<div class="flexBody">
+		<p id="presentation">Nous vous proposons ici un quiz qui vous permet de voir quel jeux video vous plairait le plus</p>
+		<div class="flexQuiz">
+			<div class="flex2">
+				<p id="print"></p>
+				<button onclick=quiz() id="start">Commencer le test</button>
+			</div>
+			<div class="flex3">
+				<button onclick=result(1) id="b1"></button>
+				<button id="b2" onclick=result(2)></button>
+			</div>
+			<div class="flex3">
+				<button id="b3" onclick=result(3)></button>
+				<button id="b4" onclick=result(4)></button>
+			</div>
+		</div>
+		
+	</div>
+	
+
+
+
+	<script type="text/javascript" src="Home.js">
+
+	</script>
+</body>
+
+
+</html>
