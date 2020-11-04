@@ -44,11 +44,26 @@
 <p>comment jouer ?</p>
 <p>le but du jeu sera d'jecter sont adversaire en dehors du stage mais attention la puissance de l'égection dépendra surtout du pourcentage voir les images</p>
 <button id="bt_display">afficher les images</button>
-
+<div class="exp" id="explication">
 <img id='explication_1' src="low_pourcentage.jpg" alt="bas_pourcentage">
-<img id='explication_2' src="medium_pourcentage.jpg" alt="medium_pourcentage">
+<img id='explication_2' src="medium_pourcentage.jpg" alt="medium_pourcentage"> <br>
+
+</div>
+
+<div class="form">
+	<label for="guessField">donnez un nombre: </label><input type="text" id="guessField" class="guessField">
+	<div class="bouton6">
+	<input  type="submit" value="donnez votre réponse" class="guessSubmit">
+	</div>
+  </div>
+
+  <div class="resultParas">
+	<p class="guesses"></p>
+	<p class="lastResult"></p>
+	<p class="lowOrHi"></p>
+
+  </div>
 </body>
 <script src="script-pages3.js"></script>
 </html>
 
-local.storage
