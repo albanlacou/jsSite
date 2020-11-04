@@ -13,7 +13,7 @@
 .flex3
 {
 	display: flex;
-	order: solid;
+	border: solid;
 	align-item: end;
 }
 .space
