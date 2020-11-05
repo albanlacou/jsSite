@@ -105,6 +105,7 @@ body
 {
 	background-color: grey;
 	font-size: 28px;
+	
 }
 a:visited
 {
@@ -115,7 +116,20 @@ a:hover
 	color:blue;
 }
 
-
-
-
-
+.align
+{
+	display: flex;
+	justify-content: center;
+}
+#link
+{
+	
+	font-size: 28px;
+	display:flex;
+	align-items: center;
+	
+}
+.grey
+{
+	background-color: grey;
+}
