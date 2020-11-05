@@ -3,7 +3,8 @@
 	display: flex;
 	justify-content: space-between;
 	border: solid;
-	font-size: 40px;
+	background-color: grey;
+	border-color: white;
 }
 .flex2
 {
@@ -62,9 +63,13 @@ body{
 	text-align: center;
 }
 p{
-	background-color:rgba(128, 128, 128, 0.315) ;
+	background-color:rgba(128, 128, 128, 0.315) 
+	;
 }
 #text{
 	display: flex;
 	margin: 32px;
+}
+a:visited{
+	color: white;
 }
