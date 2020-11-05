@@ -62,5 +62,9 @@ body{
 	text-align: center;
 }
 p{
-	color: rgb(255, 0, 242);
+	background-color:rgba(128, 128, 128, 0.315) ;
+}
+#text{
+	display: flex;
+	margin: 32px;
 }
