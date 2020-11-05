@@ -55,6 +55,12 @@ body{
 }
 
 @font-face {
-    font-family: "Peak";
-    src: url('PeakCP.otf');
+    font-family: "JungleAdventurer";
+    src: url('JungleAdventurer.ttf');
+}
+.solope{
+	text-align: center;
+}
+p{
+	color: rgb(255, 0, 242);
 }
