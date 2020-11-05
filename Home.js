@@ -4,76 +4,49 @@ let smash = 0;
 let minecraft = 0;
 let lol = 0;
 let finalText = "";
+let questions = ["Vous êtes plutôt?","En cas d'invasion zombie vous preferez?:","votre arme préférée:",
+"quel genre de graphisme vous plait le plus?","votre niveau de patience:","votre style de jeux preferer:"];
+let reponse = [" ","Combat nerveux","Du genre a foncer","Celui qui veut tout controler","Le branleur","Courir en esquivant les zombies"
+,"Taper tout les mort-vivant que vous croiser","Construire un abri fortifier","Dormir sans vos parents pour vous reveiller","Les poings toujours éfficace!!!"
+,"Un baton magique","Une bonne pioche sa fais toujours plaisir","Une batte","Classique","Fantastique","Retro","Réaliste","Je suis pas patient du tout"
+,"Extremement patient","J'ai une patience infini","Bof bof","Jeux de combat","Jeux de teamfight","Jeux de gestion et survie","jeux mobile"];
 
-
+let bouton = "b1";
+let nbreponse = 0;
+let nbquestion = 0;
 
 
 function quiz()
 {
-    
+	if(nbquestion == 6){
+		return finish();
+	}
 
 	document.getElementById("b1").style.display = "block";
-	console.log(document.getElementById("b1").style.display = "block");
 	document.getElementById("b2").style.display = "block";
 	document.getElementById("b3").style.display = "block";
 	document.getElementById("b4").style.display = "block";
 	document.getElementById("start").style.display = "none";
 	
-	if (step == 0)
-	{
-		test = "Vous êtes plutôt?";
-		document.getElementById("print").innerHTML = test;
-		document.getElementById("start").style.display = "none";
-		document.getElementById("b1").innerHTML = "Combat nerveux";
-		document.getElementById("b2").innerHTML = "Du genre a foncer";
-		document.getElementById("b3").innerHTML = "Celui qui veut tout controler";
-		document.getElementById("b4").innerHTML = "Le branleur";
-		return 0;
-
-
-	} else if (step == 1) {
-		test = "En cas d'invasion zombie vous preferez?:"
-		document.getElementById("print").innerHTML = test;
-		document.getElementById("b1").innerHTML = "Courir en esquivant les zombies";
-		document.getElementById("b2").innerHTML = "Taper tout les mort-vivant que vous croiser";
-		document.getElementById("b3").innerHTML = "Construire un abri fortifier";
-		document.getElementById("b4").innerHTML = "Dormir sans vos parents pour vous reveiller";
-	}else if (step == 2) {
-		test = "votre arme préférée:"
-		document.getElementById("print").innerHTML = test;
-		document.getElementById("b1").innerHTML = "Les poings toujours éfficace!!!";
-		document.getElementById("b2").innerHTML = "Un baton magique";
-		document.getElementById("b3").innerHTML = "Une bonne pioche sa fais toujours plaisir";
-		document.getElementById("b4").innerHTML = "Une batte";
-	}else if (step == 3) {
-		test = "quel genre de graphisme vous plait le plus?"
-		document.getElementById("print").innerHTML = test;
-		document.getElementById("b1").innerHTML = "Classique";
-		document.getElementById("b2").innerHTML = "Fantastique";
-		document.getElementById("b3").innerHTML = "Retro";
-		document.getElementById("b4").innerHTML = "Réaliste";
-	}else if (step == 4) {
-		test = "votre niveau de patience:"
-		document.getElementById("print").innerHTML = test;
-		document.getElementById("b1").innerHTML = "Je suis pas patient du tout";
-		document.getElementById("b2").innerHTML = "Extremement patient";
-		document.getElementById("b3").innerHTML = "J'ai une patience infini";
-		document.getElementById("b4").innerHTML = "Bof bof";
-	}else if (step == 5) {
-		test = "votre style de jeux preferer:"
-		document.getElementById("print").innerHTML = test;
-		document.getElementById("b1").innerHTML = "Jeux de combat";
-		document.getElementById("b2").innerHTML = "Jeux de teamfight";
-		document.getElementById("b3").innerHTML = "Jeux de gestion et survie";
-		document.getElementById("b4").innerHTML = "Bof bof";
-
-	}else if (step == 6) 
-	{
-		return finish();
-	}
+	
+	test = questions[nbquestion];
+	document.getElementById("print").innerHTML = test;
+	nbquestion++;
+	console.log(lol)
+		
+	for(let i = 1;i<=4;i++){
+		nbreponse++;
+		bouton = "b"+String(i);
+		document.getElementById(bouton).innerHTML = reponse[nbreponse];
+		
+		
+			
+	}return 0;
+	
 };
 
 function result(nbButton) {
+	
 	if (nbButton == 1) {
 		smash++;
 		step++;
@@ -92,6 +65,7 @@ function result(nbButton) {
 
 function finish ()
 {
+	console.log("finit")
 	if (smash>minecraft && smash>lol) 
 	{
 		finalText = "le jeux qui vous convient le mieux est: Super Smash Bros";

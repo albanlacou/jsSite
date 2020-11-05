@@ -115,7 +115,10 @@ a:hover
 	color:blue;
 }
 
-
-
+.align
+{
+	display: flex;
+	justify-content: center;
+}
 
 
