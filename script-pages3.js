@@ -5,7 +5,7 @@ document.getElementById("explication_3").style.display = "none";
 const btDisplay=document.getElementById("bt_display");
 btDisplay.addEventListener("click",displayImage);
 
-console.log(btDisplay);
+
 
 function clik(){
     
