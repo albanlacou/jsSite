@@ -30,19 +30,31 @@
 .space2
 {
 	margin: 40px;
-    font-size: 40px;
-    font-family: "Trebuchet MS", Verdana, Geneva, Arial;
+    font-size: 70px;
+    font-family: "Peak"
 }
-body
-{
-	background-image: url("fondAntoine.jpg");
+
+
+body{
+	background-image: url("imageA/fondAntoine.jpg");
+	background-size: cover;
+	background-position-x: initial;
+	background-position-y: initial;
+	background-repeat:initial ;
+	background-attachment: fixed;
+	background-origin: initial;
+	background-clip: initial;
+	background-color: initial;
 	color: white;
-}
+	
+}	
+
 #b1,#b2,#b3,#b4
 {
 	font-size: 300px;
 }
-.tonImage
-{
-	display=none;
+
+@font-face {
+    font-family: "Peak";
+    src: url('PeakCP.otf');
 }
