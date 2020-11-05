@@ -3,6 +3,8 @@
 	display: flex;
 	justify-content: space-between;
 	border: solid;
+	background-color: grey;
+	border-color: white;
 
 }
 .space
@@ -14,4 +16,8 @@
 .exp{
 	display:flex;
 	flex-direction: row;
+}
+a:visited
+{
+	color: white;
 }
