@@ -21,11 +21,13 @@ function displayImage(){
     document.getElementById("explication_1").style.display = "block";
     document.getElementById("explication_2").style.display = "block";
     document.getElementById("explication_3").style.display = "block";
+    document.getElementById("bt_display").textContent= "désafficher les images";
 }
     else {
    document.getElementById("explication_1").style.display = "none";
     document.getElementById("explication_2").style.display = "none";
     document.getElementById("explication_3").style.display = "none";
+    document.getElementById("bt_display").textContent="afficher l'image";
   }
    
 }
