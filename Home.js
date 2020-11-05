@@ -14,7 +14,7 @@ let reponse = [" ","Combat nerveux","Du genre a foncer","Celui qui veut tout con
 let bouton = "b1";
 let nbreponse = 0;
 let nbquestion = 0;
-
+document.getElementById("link").style.display = "none";
 
 function quiz()
 {
@@ -68,13 +68,19 @@ function finish ()
 	console.log("finit")
 	if (smash>minecraft && smash>lol) 
 	{
-		finalText = "le jeux qui vous convient le mieux est: Super Smash Bros";
+		document.getElementById("link").href = "page-3.html";
+		document.getElementById("link").innerHTML = " Super Smash Bros";
+		finalText = "Le jeux qui vous convient le mieux est: ";
 	}else if (minecraft>smash && minecraft>lol) 
 	{
-		finalText = "le jeux qui vous convient le mieux est: Minecraft";
+		document.getElementById("link").href = "page-2.html";
+		document.getElementById("link").innerHTML = " Minecarft";
+		finalText = "Le jeux qui vous convient le mieux est: ";
 	}else if (lol>smash && lol>minecraft) 
 	{
-		finalText = "le jeux qui vous convient le mieux est: League of Legend";
+		document.getElementById("link").href = "page-1.html";
+		document.getElementById("link").innerHTML = "  League of Legend";
+		finalText = "Le jeux qui vous convient le mieux est: ";
 	}else if(lol == 0 && minecraft == 0 && smash == 0)
 	{
 		finalText = "aucun jeu ne vous convient vraiment vous n'etes peut etre pas fait pour ça?";
@@ -86,5 +92,7 @@ function finish ()
 	document.getElementById("b3").style.display = "none";
 	document.getElementById("b4").style.display = "none";
 	document.getElementById("print").innerHTML = finalText ;
+	document.getElementById("link").style.display = "flex";
+	
 }
 
