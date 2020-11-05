@@ -4,7 +4,7 @@ let smash = 0;
 let minecraft = 0;
 let lol = 0;
 let finalText = "";
-
+let questions = ["Vous êtes plutôt?","En cas d'invasion zombie vous preferez?:","votre arme préférée:"]
 
 
 
