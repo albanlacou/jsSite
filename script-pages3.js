@@ -1,5 +1,6 @@
 document.getElementById("explication_1").style.display = "none";
 document.getElementById("explication_2").style.display = "none";
+document.getElementById("explication_3").style.display = "none";
 
 const btDisplay=document.getElementById("bt_display");
 btDisplay.addEventListener("click",displayImage);
@@ -17,6 +18,7 @@ function clik(){
 function displayImage(){
     document.getElementById("explication_1").style.display = "block";
     document.getElementById("explication_2").style.display = "block";
+    document.getElementById("explication_3").style.display = "block";
 }
 
 //jeu smash 
