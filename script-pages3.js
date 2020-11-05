@@ -32,6 +32,12 @@ function displayImage(){
    
 }
 
+function playMusic(){
+  document.getElementById("music").play();
+}
+
+window.onload= playMusic();
+
 //jeu smash 
 
 let randomNumber = Math.floor(Math.random() * 9) + 1;
