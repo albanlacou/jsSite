@@ -21,7 +21,7 @@ function displayImage(){
 
 //jeu smash 
 
-let randomNumber = Math.floor(Math.random() * 6) + 1;
+let randomNumber = Math.floor(Math.random() * 9) + 1;
       const guesses = document.querySelector('.guesses');
       const lastResult = document.querySelector('.lastResult');
       const lowOrHi = document.querySelector('.lowOrHi');
@@ -35,6 +35,7 @@ let randomNumber = Math.floor(Math.random() * 6) + 1;
         if (guessCount === 1) {
           guesses.textContent = 'vos différents éssai: ';
         }
+
         guesses.textContent += userGuess + ' ';   //envoi une réponse en fonction de la réponse du joueur
         if (userGuess === randomNumber) {
           lastResult.textContent = 'félicitation vous avez trouvez en ' + guessCount + " fois ! Si vous voullez recommencer cliquer sur le bouton Start New game ";
@@ -46,9 +47,9 @@ let randomNumber = Math.floor(Math.random() * 6) + 1;
           lastResult.textContent = 'faux!';
           lastResult.style.backgroundColor = 'red';
           if(userGuess < randomNumber) {
-            lowOrHi.textContent = ' le dernier lancer est trop petit' ;
+            lowOrHi.textContent = " non ce n'ai pas la bonne puissance elle est trop petite" ;
           } else if(userGuess > randomNumber) {
-            lowOrHi.textContent = 'le dernier lancer est trop grand!';
+            lowOrHi.textContent = "non ce n'ai pas la bonne puissance elle est trop grande !";
           }
         }
         guessCount++; //incrémente de 1
@@ -77,8 +78,52 @@ let randomNumber = Math.floor(Math.random() * 6) + 1;
         guessField.value = ''; //remet la barre de texte a zero
         guessField.focus();
         lastResult.style.backgroundColor = 'white';
-        randomNumber = Math.floor(Math.random() * 6) + 1;
+        randomNumber = Math.floor(Math.random() * 9) + 1;
       }
       
-    
+     
 
+      //konamicode
+var allowedKeys = {
+  37: 'left',
+  38: 'up',
+  39: 'right',
+  40: 'down',
+  65: 'a',
+  66: 'b'
+};
+
+
+var konamiCode = ['up', 'up', 'down', 'down', 'left', 'right', 'left', 'right', 'b', 'a'];
+
+
+var konamiCodePosition = 0;
+
+
+document.addEventListener('keydown', function(e) {
+  
+  var key = allowedKeys[e.keyCode];
+  
+  var requiredKey = konamiCode[konamiCodePosition];
+
+ 
+  if (key == requiredKey) {
+
+    
+    konamiCodePosition++;
+
+   
+    if (konamiCodePosition == konamiCode.length) {
+      activateCheats();
+      konamiCodePosition = 0;
+    }
+  } else {
+    konamiCodePosition = 0;
+  }
+});
+
+function activateCheats() {
+  window.open("./page_konami.html");
+
+  alert("cheats activated");
+}
