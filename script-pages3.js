@@ -16,9 +16,18 @@ function clik(){
   
 
 function displayImage(){
+  if(document.getElementById('explication_1').style.display == 'none'){
+
     document.getElementById("explication_1").style.display = "block";
     document.getElementById("explication_2").style.display = "block";
     document.getElementById("explication_3").style.display = "block";
+}
+    else {
+   document.getElementById("explication_1").style.display = "none";
+    document.getElementById("explication_2").style.display = "none";
+    document.getElementById("explication_3").style.display = "none";
+  }
+   
 }
 
 //jeu smash 
