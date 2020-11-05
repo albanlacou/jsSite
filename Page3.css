@@ -21,3 +21,8 @@ a:visited
 {
 	color: white;
 }
+
+body{
+	font-family: Montserrat, sans-serif;
+	text-align: justify;
+}
