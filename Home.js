@@ -4,11 +4,11 @@ let smash = 0;
 let minecraft = 0;
 let lol = 0;
 let finalText = "";
-let questions = ["Vous êtes plutôt?","En cas d'invasion zombie vous preferez?:","votre arme préférée:",
-"quel genre de graphisme vous plait le plus?","votre niveau de patience:","votre style de jeux preferer:"];
-let reponse = [" ","Combat nerveux","Du genre a foncer","Celui qui veut tout controler","Le branleur","Courir en esquivant les zombies"
-,"Taper tout les mort-vivant que vous croiser","Construire un abri fortifier","Dormir sans vos parents pour vous reveiller","Les poings toujours éfficace!!!"
-,"Un baton magique","Une bonne pioche sa fais toujours plaisir","Une batte","Classique","Fantastique","Retro","Réaliste","Je suis pas patient du tout"
+let questions = ["Vous êtes plutôt?","En cas d'invasion zombie vous préfèrez?:","Votre arme préférée:",
+"Quel genre de graphisme vous plait le plus?","Votre niveau de patience:","votre style de jeux preferer:"];
+let reponse = [" ","Combat nerveux","Du genre à foncer","Celui qui veut tout contrôler","Le branleur","Courir en ésquivant les zombies"
+,"Taper tout les morts-vivants que vous croisés","Construire un abri fortifié","Dormir sans vos parents pour vous réveillé","Les poings toujours éfficace!!!"
+,"Un baton magique","Une bonne pioche ça fais toujours plaisir","Une batte","Classique","Fantastique","Rétro","Réaliste","Je suis pas patient du tout"
 ,"Extremement patient","J'ai une patience infini","Bof bof","Jeux de combat","Jeux de teamfight","Jeux de gestion et survie","jeux mobile"];
 
 let bouton = "b1";
@@ -83,9 +83,9 @@ function finish ()
 		finalText = "Le jeux qui vous convient le mieux est: ";
 	}else if(lol == 0 && minecraft == 0 && smash == 0)
 	{
-		finalText = "aucun jeu ne vous convient vraiment vous n'etes peut etre pas fait pour ça?";
+		finalText = "Aucun jeu ne vous convient vraiment vous n'êtes peut être pas fait pour ça?";
 	}else{
-		finalText = "tout les jeu peuvent vous convenir alors faite votre choix :)";
+		finalText = "tout les jeux peuvent vous convenir alors faite votre choix :)";
 	}
 	document.getElementById("b1").style.display = "none";
 	document.getElementById("b2").style.display = "none";
