@@ -84,6 +84,7 @@ function finish ()
 	}else if(lol == 0 && minecraft == 0 && smash == 0)
 	{
 		finalText = "Aucun jeu ne vous convient vraiment vous n'êtes peut être pas fait pour ça?";
+		document.getElementById("link").innerHTML = "";
 	}else{
 		finalText = "tout les jeux peuvent vous convenir alors faite votre choix :)";
 	}
